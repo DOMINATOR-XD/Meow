@@ -1,0 +1,12 @@
+version: "1.0"
+services:
+  worker:
+    build: .
+    environment:
+      API_ID: $API_ID
+      API_HASH: $API_HASH
+      SUDO_USERS: $SUDO_USERS
+      ALIVE_PIC: $ALIVE_PIC
+      STRING_SESSION: $STRING_SESSION
+      
+      

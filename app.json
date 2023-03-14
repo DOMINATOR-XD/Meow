@@ -1,0 +1,61 @@
+{
+    "name": "Meow Userbot",
+    "description": "Pyrogram userbot with music system.",
+    "logo": "",
+    "keywords": [
+        "Telegram",
+        "MusicPlayer",
+        "VideoPlayer"
+    ],
+    "repository": "https://github.com/kaal0408/Meow",
+    "env": {
+        "SESSION": {
+            "description": "Pyrogram String Session",
+            "required": true
+        },
+        "API_ID": {
+            "description": " APP ID fill here my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "API hash fill here my.telegram.org/apps",
+            "required": true
+        },
+        "HNDLR": {
+            "description": "put your command handler ,leave it if u use . as a command handler",
+            "required": false
+        },
+        "AlIVE_MSG": {
+            "description": "Enter your alive msg",
+            "required": false
+        },
+        "ALIVE_PIC": {
+            "description": " Enter your alive pic",
+            "required": false
+        },
+        "PING_MSG": {
+            "description": "Enter your ping msg",
+            "required": false
+        },
+        "SUDO_USERS": {
+            "description": "fill sudo user for VC plugin ",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "container"
+}
