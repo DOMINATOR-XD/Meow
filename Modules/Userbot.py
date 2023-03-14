@@ -16,22 +16,22 @@ KAAL_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/3c2932815330a143
 Alivemsg = ALIVE_MSG if ALIVE_MSG else "Meow is online now."
 
 
-manjeet = f"⁂ {Alivemsg} ⁂\n\n"
-manjeet += f"━───────╯•╰───────━\n"
-manjeet += f"➠ **Python version** : `3.10.4`\n"
-manjeet += f"➠ **Pyrogram version** : `{pyro_vr}`\n"
-manjeet += f"➠ **version**  : `{__version__}`\n"
-manjeet += f"➠ **Kali Linux**  : `Yes`\n"
-manjeet += f"➠ **Database**  : `Mongo atlas`\n"
-manjeet += f"➠ **Database Status **  : `Functional`\n"
-manjeet += f"➠ **current Branch**  : `Master`\n"
-manjeet += f"➠ **VC Modulesc**  : `Allow`\n"
-manjeet += f"➠ **Supporter**  : [Kaal](https://t.me/Visiyv6383)\n"
-manjeet += f"➠ **Channel** : [support](https://t.me/DollxSpam_BOT)\n"
-manjeet += f"➠ **Group** : [Channel](https://t.me/Dollx_spambot)\n"
-manjeet += f"━───────╮•╭───────━\n\n"
-manjeet += f"➠ **Channel** : [Commands](https://t.me/VisionStudio_op/32)\n"
-manjeet += f"➠ **Source Code:** [•Repo•](https://github.com/DOMINATOR-XD/Meow)"
+meow = f"⁂ {Alivemsg} ⁂\n\n"
+meow += f"━───────╯•╰───────━\n"
+meow += f"➠ **Python version** : `3.10.4`\n"
+meow += f"➠ **Pyrogram version** : `{pyro_vr}`\n"
+meow += f"➠ **version**  : `{__version__}`\n"
+meow += f"➠ **Kali Linux**  : `Yes`\n"
+meow += f"➠ **Database**  : `Mongo atlas`\n"
+meow += f"➠ **Database Status **  : `Functional`\n"
+meow += f"➠ **current Branch**  : `Master`\n"
+meow += f"➠ **VC Modulesc**  : `Allow`\n"
+meow += f"➠ **Supporter**  : [Kaal](https://t.me/Visiyv6383)\n"
+meow += f"➠ **Channel** : [support](https://t.me/DollxSpam_BOT)\n"
+meow += f"➠ **Group** : [Channel](https://t.me/Dollx_spambot)\n"
+meow += f"━───────╮•╭───────━\n\n"
+meow += f"➠ **Channel** : [Commands](https://t.me/VisionStudio_op/32)\n"
+meow += f"➠ **Source Code:** [•Repo•](https://github.com/DOMINATOR-XD/Meow)"
 
 
 async def get_time(seconds: int) -> str:
@@ -74,9 +74,9 @@ async def ping(_, e: Message):
 @Client.on_message(filters.me & filters.command(["alive"], prefixes=HNDLR))
 async def alive(xspam: Client, e: Message):
        if ".jpg" in KAAL_PIC or ".png" in KAAL_PIC:
-              await xspam.send_photo(e.chat.id, KAAL_PIC, caption=manjeet)
+              await xspam.send_photo(e.chat.id, KAAL_PIC, caption=meow)
        if ".mp4" in KAAL_PIC or ".MP4," in KAAL_PIC:
-              await xspam.send_video(e.chat.id, KAAL_PIC, caption=manjeet)
+              await xspam.send_video(e.chat.id, KAAL_PIC, caption=meow)
 
 
 
