@@ -7,7 +7,7 @@
         "MusicPlayer",
         "VideoPlayer"
     ],
-    "repository": "https://github.com/kaal0408/Meow",
+    "repository": "https://github.com/DOMINATOR-XD/Meow",
     "env": {
         "SESSION": {
             "description": "Pyrogram String Session",
