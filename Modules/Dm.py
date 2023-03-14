@@ -21,7 +21,7 @@ async def dmraid(xspam: Client, e: Message):
           ok = await xspam.get_users(Kaal[1])
           id = ok.id
           if int(id) in KAALX:
-                text = f"I can't raid on @kaalxsupport Owner"
+                text = f"I can't raid on my Owner"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
                 text = f"This guy is a sudo user."
@@ -39,7 +39,7 @@ async def dmraid(xspam: Client, e: Message):
           ok = await xspam.get_users(user_id)
           id = ok.id
           if int(id) in KAALX:
-                text = f"I can't raid on @kaalxsupport Owner"
+                text = f"I can't raid on my Owner"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
                 text = f"This guy is a sudo user."
@@ -71,7 +71,7 @@ async def dm(xspam: Client, e: Message):
           ok = await xspam.get_users(usr)
           id = ok.id
           if int(id) in KAALX:
-                text = f"I can't raid on @kaalxsupport Owner"
+                text = f"I can't raid on my Owner"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
                 text = f"This guy is a sudo user."
@@ -85,7 +85,7 @@ async def dm(xspam: Client, e: Message):
           ok = await xspam.get_users(user_id)
           id = ok.id
           if int(id) in KAALX:
-                text = f"I can't raid on @KAALXSUPPORT Owner"
+                text = f"I can't raid on my Owner"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
                 text = f"This guy is a sudo user."
@@ -114,7 +114,7 @@ async def dmspam(xspam: Client, e: Message):
           ok = await xspam.get_users(Rizoel[0])
           id = ok.id
           if int(id) in KAALX:
-                text = f"I can't raid on @kaalxsupport Owner"
+                text = f"I can't raid on my Owner"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
                 text = f"This guy is a sudo user."
@@ -130,7 +130,7 @@ async def dmspam(xspam: Client, e: Message):
           ok = await xspam.get_users(user_id)
           id = ok.id
           if int(id) in KAALX:
-                text = f"I can't raid on @kaalxsupport Owner"
+                text = f"I can't raid on my Owner"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
                 text = f"This guy is a sudo user."
