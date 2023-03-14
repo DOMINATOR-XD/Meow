@@ -26,11 +26,12 @@ manjeet += f"➠ **Database**  : `Mongo atlas`\n"
 manjeet += f"➠ **Database Status **  : `Functional`\n"
 manjeet += f"➠ **current Branch**  : `Master`\n"
 manjeet += f"➠ **VC Modulesc**  : `Allow`\n"
-manjeet += f"➠ **Channel** : [support channel](https://t.me/visionstudio_op)\n"
-manjeet += f"➠ **Group** : [Owner](https://t.me/Murat_30)\n"
+manjeet += f"➠ **Supporter**  : [Kaal](https://t.me/Visiyv6383)\n"
+manjeet += f"➠ **Channel** : [support](https://t.me/DollxSpam_BOT)\n"
+manjeet += f"➠ **Group** : [Channel](https://t.me/Dollx_spambot)\n"
 manjeet += f"━───────╮•╭───────━\n\n"
 manjeet += f"➠ **Channel** : [Commands](https://t.me/VisionStudio_op/32)\n"
-manjeet += f"➠ **Source Code:** [•Repo•](https://github.com/kaal0408/Meow)"
+manjeet += f"➠ **Source Code:** [•Repo•](https://github.com/DOMINATOR-XD/Meow)"
 
 
 async def get_time(seconds: int) -> str:
